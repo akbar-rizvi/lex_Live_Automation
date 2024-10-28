@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config({ path: '../.env' });
 
 
 async function sleep(ms) {
@@ -74,7 +74,7 @@ console.log(process.env.EMAIL)
     data.splice(0,3)
     await fs.writeFile('Data.json', JSON.stringify(data, null, 2));
 
-    console.log('Data is  saved in json file');
+    console.log('Data is  saved in json file At: ', new Date());
 await sleep(2000)
     await browser.close();
 })();

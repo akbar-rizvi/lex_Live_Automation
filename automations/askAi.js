@@ -100,8 +100,8 @@ console.log("Textarea found.");
 
   // Close the browser
   await delay(3);
+  console.log("Ask Ai Automation Complete");
   await browser.close();
-  console.log("Browser closed.");
 };
 
 export default askAiAutomation;

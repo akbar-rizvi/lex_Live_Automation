@@ -37,7 +37,7 @@ const loginAutomation = async () => {
       });
 
     // Close the browser
-    console.log('Login successful!');
+    console.log('Login Automation successful!');
     await delay(3);
     await browser.close();
 }

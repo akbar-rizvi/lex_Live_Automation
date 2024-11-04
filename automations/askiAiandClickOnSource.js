@@ -123,7 +123,7 @@ console.log("Source Successful!");
     console.error("Source Error:", error);
     throw new Error("Source Error");
   } finally {
-    // await browser.close(); // Ensure the browser is closed even if an error occurs
+    await browser.close(); // Ensure the browser is closed even if an error occurs
   }
 };
 

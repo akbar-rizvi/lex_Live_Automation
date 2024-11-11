@@ -1,5 +1,5 @@
 {
-  "name": "lex",
+  "name": "organizer_all_task",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -12,6 +12,6 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "puppeteer": "^23.6.0"
+    "puppeteer": "^23.7.1"
   }
 }
